@@ -1,0 +1,19 @@
+java -Xmx812m -cp
+#invoke java class
+#options: none
+../lib/WordnetTools-1.0-jar-with-dependencies.jar vu.wntools.wnsimilarity.main.Similarity
+#path to lmf file
+#options: 
+--lmf-file "../resources/cornetto2.1.lmf.xml"
+#
+--input "CHANGE"
+#
+--method all
+#
+--pairs words
+#
+--depth 15
+#
+--subsumers "../resources/cornettosubsumers.cum"
+#
+--relations "../resources/relations.txt"

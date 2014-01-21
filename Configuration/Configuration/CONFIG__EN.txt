@@ -1,0 +1,21 @@
+#program language command
+#options: none
+java -Xmx812m -cp
+#invoke java class
+#options: none
+../lib/WordnetTools-1.0-jar-with-dependencies.jar vu.wntools.wnsimilarity.main.Similarity
+#path to lmf file
+#options: 
+--lmf-file "../resources/wneng-30.lmf.xml"
+#
+--input "CHANGE"
+#
+--method all
+#
+--pairs words
+#
+--depth 15
+#
+--subsumers "../resources/ic-semcor.dat.lower-case-cum"
+#
+ --relations "../resources/relations.txt"
