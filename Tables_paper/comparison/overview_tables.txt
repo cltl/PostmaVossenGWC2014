@@ -1,0 +1,72 @@
+
+
+Below, you will find the replicated table of: 
+a_Table_5_1_from_section_5_1_from_original_paper.txt
+
+Dataset Correlation with original dataset
+RgNo 0.93
+RgSim 0.93
+RgRel 0.93
+McNo 0.88
+McSim 0.86
+McRel 0.89
+
+
+The original from the paper can be found below:
+
+
+Dutch Gold standard & Spearman rho original dataset  
+McNo 0.88 	 
+McSim 0.86 	 
+McRel 0.89 	 
+RgNo 0.93 	 
+RgSim 0.93 	 
+RgRel 0.93	
+
+
+Below, you will find the replicated table of: 
+b_Table_5_2_from_section_5_2_from_original_paper.txt
+
+SM McNo McRel McSim RgNo RgRel RgSim
+path 0.840 0.796 0.856 0.783 0.720 0.777
+lch 0.840 0.796 0.856 0.783 0.720 0.777
+wup 0.806 0.766 0.831 0.770 0.704 0.769
+res 0.765 0.737 0.785 0.720 0.669 0.719
+jcn 0.852 0.797 0.891 0.525 0.488 0.512
+lin 0.838 0.779 0.880 0.531 0.495 0.520
+
+
+The original from the paper can be found below:
+
+
+SM McNo McRel McSim RgNo RgRel RgSim
+path 0.840 0.796 0.856 0.783  0.720  0.777  
+lch 0.840 0.796 0.856  0.783  0.720  0.777  
+wup 0.806 0.766 0.831 0.770 0.704 0.769 
+res 0.765 0.737 0.785 0.720 0.669 0.719 
+jcn  0.852  0.797  0.891 0.525 0.488 0.512 
+lin 0.838 0.779 0.880 0.531 0.495 0.520 
+
+
+Below, you will find the replicated table of: 
+c_Table_5_3_from_section_5_3_from_original_paper.txt
+
+SM McPed McWT diff RgPed RgWT diff
+path 0.68 0.72 -0.04 0.69 0.78 -0.09
+lch 0.71 0.72 -0.01 0.7 0.78 -0.08
+wup 0.74 0.74 -0.0 0.69 0.78 -0.09
+res 0.74 0.75 -0.01 0.69 0.76 -0.07
+jcn 0.72 0.65 0.07 0.51 0.56 -0.05
+lin 0.73 0.67 0.06 0.58 0.60 -0.02
+
+
+The original from the paper can be found below:
+
+
+SM McPed McWT diff RgPed RgWT diff
+path  0.68  0.72  -0.04  0.69  0.78  -0.09  
+lch  0.71  0.72  -0.01  0.70  0.78  -0.08  
+wup  0.74  0.74  0.00  0.69  0.78  -0.09  
+res  0.74  0.75  -0.01  0.69  0.76  -0.07  
+jcn  0.72  0.65  0.07  0.51  0.56  -0.05  
+lin  0.73  0.67  0.06  0.58  0.60  -0.02  

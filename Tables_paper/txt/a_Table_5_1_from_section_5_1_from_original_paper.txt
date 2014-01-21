@@ -1,0 +1,7 @@
+Dataset Correlation with original dataset
+RgNo 0.93
+RgSim 0.93
+RgRel 0.93
+McNo 0.88
+McSim 0.86
+McRel 0.89
