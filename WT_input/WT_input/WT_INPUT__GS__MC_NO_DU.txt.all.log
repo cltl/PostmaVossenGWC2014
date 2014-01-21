@@ -1,0 +1,1154 @@
+Wordnet Tools, version 1.0, implementation by Piek Vossen (piek.vossen@vu.nl), VU University Amsterdam
+pathToWordnetFile = ../resources/cornetto2.1.lmf.xml
+pathToInputFile = /home/marten/Dropbox/aaVU/Spinoza/Papers/GWC_2014/Github/Code/WT_input/WT_INPUT__GS__MC_NO_DU.txt
+method = all
+pathToSubsumerFrequencies = ../resources/cornettosubsumers.cum
+subsumersFrequencies subsumers = 12745
+subsumersFrequencies nr of words= 78562
+posFilter = 
+pathToRelFile = ../resources/relations.txt
+depth = 15
+wordnetData entries = 91406
+wordnetData synsets = 65659
+
+word-1	word-2	Similar by path	LCS path	Similar by L&C	LCS L&C	Similar by W&P	LCS W&P	Similar by R	LCS R	Similar by L	LCS L	Similar by J&C	LCS J&C
+Method = Path
+	Score = 0.1111111111111111
+	Match =nld-21-d_n-28590-n;iets
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.2039728043259361
+	Match =nld-21-d_n-28590-n;iets
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+Method = WuPalmer
+	Score = 0.2
+	Match =nld-21-d_n-28590-n;iets
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+Method = Lin
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 15.050082134529454
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+Method = JiangConrath
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 15.050082134529454
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	morgen[;morgen->;oppervlaktemaat;vlaktemaat->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	draadje[;draadje->;draad->;voorwerp;ding->;object->;iets->]
+
+Method = Path
+	Score = 0.08333333333333333
+	Match =nld-21-d_n-28590-n;iets
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = LeacockChodorow
+	Score = 0.916290731874155
+	Match =nld-21-d_n-28590-n;iets
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = WuPalmer
+	Score = 0.15384615384615385
+	Match =nld-21-d_n-28590-n;iets
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = Lin
+	Score = 0.2594953103608376
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 17.485812941670527
+Ic2 = 10.288693201619074
+IcLcs = 3.066634912582401
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = JiangConrath
+	Score = 0.05713597318528344
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 17.485812941670527
+Ic2 = 10.288693201619074
+IcLcs = 3.066634912582401
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+
+Method = Path
+	Score = 0.16666666666666666
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+Method = LeacockChodorow
+	Score = 1.6094379124341003
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+Method = WuPalmer
+	Score = 0.4444444444444444
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+Method = Resnik
+	Score = 6.389403226051073
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	IcLcs = 0.0016792580398756847
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+Method = Lin
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 14.449772944628446
+Ic2 = 0.0
+IcLcs = 6.389403226051073
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = JiangConrath
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 14.449772944628446
+Ic2 = 0.0
+IcLcs = 6.389403226051073
+	begraafplaats[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+
+Method = Path
+	Score = 0.1
+	Match =nld-21-d_n-24103-n;object
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.0986122886681098
+	Match =nld-21-d_n-24103-n;object
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.3076923076923077
+	Match =nld-21-d_n-24103-n;object
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 5.342310028252222
+	Match =nld-21-d_n-24103-n;object
+	IcLcs = 0.004784804899550169
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.38520064981431446
+	Match =nld-21-d_n-24103-n;object
+Ic1 = 13.49754323187497
+Ic2 = 15.767831922729439
+IcLcs = 5.342310028252222
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.05864007646750819
+	Match =nld-21-d_n-24103-n;object
+Ic1 = 13.49754323187497
+Ic2 = 15.767831922729439
+IcLcs = 5.342310028252222
+	glas[;drinkglas;glaasje;glas->;voorwerp;ding->;object->;iets->]
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.2
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.791759469228055
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.7777777777777778
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 6.278930782850419
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	IcLcs = 0.0018754047375070546
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.47024333869706764
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+Ic1 = 10.937196160168417
+Ic2 = 15.767831922729439
+IcLcs = 6.278930782850419
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.07068553259653937
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+Ic1 = 10.937196160168417
+Ic2 = 15.767831922729439
+IcLcs = 6.278930782850419
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.25
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;heloot;slavin;slaaf;lijfeigene->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 2.0149030205422647
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;heloot;slavin;slaaf;lijfeigene->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.8421052631578947
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;heloot;slavin;slaaf;lijfeigene->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 6.314929282018136
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	IcLcs = 0.0018090936915326223
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;heloot;slavin;slaaf;lijfeigene->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.4918376183603914
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+Ic1 = 12.00307681881819
+Ic2 = 0.0
+IcLcs = 6.314929282018136
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;verslaafde;slaaf;addict->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.07663386751775747
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+Ic1 = 12.00307681881819
+Ic2 = 0.0
+IcLcs = 6.314929282018136
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	slaaf[;verslaafde;slaaf;addict->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.2
+	Match =nld-21-d_n-28590-n;iets
+	bos[;bos;bosje->;hoeveelheid;kwantiteit->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+Method = LeacockChodorow
+	Score = 1.791759469228055
+	Match =nld-21-d_n-28590-n;iets
+	bos[;bos;bosje->;hoeveelheid;kwantiteit->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+Method = WuPalmer
+	Score = 0.5
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	bos[;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+Method = Resnik
+	Score = 6.389403226051073
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+	IcLcs = 0.0016792580398756847
+	bos[;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+Method = Lin
+	Score = 0.47364611293603465
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+Ic1 = 12.529877269091156
+Ic2 = 14.449772944628446
+IcLcs = 6.389403226051073
+	bos[;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+Method = JiangConrath
+	Score = 0.07041835096466842
+	Match =nld-21-d_n-24488-n;locatie;oord;plaats;plek
+Ic1 = 12.529877269091156
+Ic2 = 14.449772944628446
+IcLcs = 6.389403226051073
+	bos[;foreest;bos;bosje->;terrein->;gebied->;locatie;oord;plaats;plek->;iets->]
+	kerkhof[;kerkhof;godsakker;begraafplaats;dodenakker->;locatie;oord;plaats;plek->;iets->]
+
+Method = Path
+	Score = 0.16666666666666666
+	Match =nld-21-d_n-28590-n;iets
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;bos;bosje->;hoeveelheid;kwantiteit->;iets->]
+Method = LeacockChodorow
+	Score = 1.6094379124341003
+	Match =nld-21-d_n-28590-n;iets
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;bos;bosje->;hoeveelheid;kwantiteit->;iets->]
+Method = WuPalmer
+	Score = 0.4444444444444444
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Resnik
+	Score = 4.63087453334782
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	IcLcs = 0.04657762922886449
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Lin
+	Score = 0.3591420823174954
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+Ic1 = 13.258660256032114
+Ic2 = 12.529877269091156
+IcLcs = 3.066634912582401
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = JiangConrath
+	Score = 0.06050782355661257
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+Ic1 = 13.258660256032114
+Ic2 = 12.529877269091156
+IcLcs = 3.066634912582401
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	bos[;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+
+Method = Path
+	Score = 0.14285714285714285
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = LeacockChodorow
+	Score = 1.455287232606842
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = WuPalmer
+	Score = 0.4
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Resnik
+	Score = 4.63087453334782
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+	IcLcs = 0.04657762922886449
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Lin
+	Score = 0.0
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+Ic1 = 13.954549891867643
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = JiangConrath
+	Score = 0.0
+	Match =nld-21-d_n-38865-n;deel;stukje;gedeelte;stuk;part;hap
+Ic1 = 13.954549891867643
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	woud[;woud->;foreest;bos;bosje->;terrein->;gebied->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+
+Method = Path
+	Score = 0.16666666666666666
+	Match =nld-21-d_n-28590-n;iets
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+Method = LeacockChodorow
+	Score = 1.6094379124341003
+	Match =nld-21-d_n-28590-n;iets
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+Method = WuPalmer
+	Score = 0.2857142857142857
+	Match =nld-21-d_n-28590-n;iets
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+Method = Lin
+	Score = 0.26000244393064564
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 13.258660256032114
+Ic2 = 11.443931448065946
+IcLcs = 3.066634912582401
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+Method = JiangConrath
+	Score = 0.05728686726117726
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 13.258660256032114
+Ic2 = 11.443931448065946
+IcLcs = 3.066634912582401
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	berg[;stapel;hoopje;berg;hoop;tas->;hoeveelheid;kwantiteit->;iets->]
+
+Method = Path
+	Score = 0.25
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 2.0149030205422647
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.8421052631578947
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 6.314929282018136
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+	IcLcs = 0.04657762922886449
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.0
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+Ic1 = 12.00307681881819
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.0
+	Match =nld-21-d_n-24443-n;mens;figuur;persoon;man
+Ic1 = 12.00307681881819
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	orakel[;vraagbaak;orakel->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.2
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.791759469228055
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.7142857142857143
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 6.217350774706231
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+	IcLcs = 0.004784804899550169
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.47591502395274793
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+Ic1 = 11.291098065907793
+Ic2 = 0.0
+IcLcs = 5.342310028252222
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.0730284930574788
+	Match =nld-21-d_n-10845-n;beest;gedierte;dier
+Ic1 = 11.291098065907793
+Ic2 = 0.0
+IcLcs = 5.342310028252222
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.16666666666666666
+	Match =nld-21-d_n-28590-n;iets
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+Method = LeacockChodorow
+	Score = 1.6094379124341003
+	Match =nld-21-d_n-28590-n;iets
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+Method = WuPalmer
+	Score = 0.2857142857142857
+	Match =nld-21-d_n-28590-n;iets
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+Method = Lin
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 12.55677254470356
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+Method = JiangConrath
+	Score = 0.0
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 12.55677254470356
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	akkoord[;deal;akkoord;convenant;overeenkomst->;toestand;boel;situatie;bedoening->;iets->]
+	glimlach[;glimlach->;lach->;gezegde;uiting->;iets->]
+
+Method = Path
+	Score = 0.1111111111111111
+	Match =nld-21-d_n-28590-n;iets
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.2039728043259361
+	Match =nld-21-d_n-28590-n;iets
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.2
+	Match =nld-21-d_n-28590-n;iets
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;hen->;vrouwtje;wijfjesdier;wijfje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.2709254481493974
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 9.291534638633456
+Ic2 = 17.485812941670527
+IcLcs = 3.066634912582401
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.06058788459676699
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 9.291534638633456
+Ic2 = 17.485812941670527
+IcLcs = 3.066634912582401
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	hen[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.09090909090909091
+	Match =nld-21-d_n-28590-n;iets
+	tocht[;tocht->;vaartje;vaart;kanaal->;vaarwater;waterweg->;water->;locatie;oord;plaats;plek->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = LeacockChodorow
+	Score = 1.0033021088637848
+	Match =nld-21-d_n-28590-n;iets
+	tocht[;tocht->;vaartje;vaart;kanaal->;vaarwater;waterweg->;water->;locatie;oord;plaats;plek->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = WuPalmer
+	Score = 0.16666666666666666
+	Match =nld-21-d_n-28590-n;iets
+	tocht[;tocht->;vaartje;vaart;kanaal->;vaarwater;waterweg->;water->;locatie;oord;plaats;plek->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = Resnik
+	Score = 3.066634912582401
+	Match =nld-21-d_n-28590-n;iets
+	IcLcs = 0.04657762922886449
+	tocht[;tocht->;vaartje;vaart;kanaal->;vaarwater;waterweg->;water->;locatie;oord;plaats;plek->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = Lin
+	Score = 0.2838598501712886
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 10.98913876809933
+Ic2 = 10.617544323799097
+IcLcs = 3.066634912582401
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = JiangConrath
+	Score = 0.064626981956845
+	Match =nld-21-d_n-28590-n;iets
+Ic1 = 10.98913876809933
+Ic2 = 10.617544323799097
+IcLcs = 3.066634912582401
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+
+Method = Path
+	Score = 0.2
+	Match =nld-21-d_n-31770-n;voorwerp;ding
+	ezel[;schildersezel;ezel->;stander;standaard->;houder->;voorwerp;ding->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.791759469228055
+	Match =nld-21-d_n-31770-n;voorwerp;ding
+	ezel[;schildersezel;ezel->;stander;standaard->;houder->;voorwerp;ding->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+Method = WuPalmer
+	Score = 0.6
+	Match =nld-21-d_n-31770-n;voorwerp;ding
+	ezel[;schildersezel;ezel->;stander;standaard->;houder->;voorwerp;ding->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+Method = Resnik
+	Score = 6.285283123401736
+	Match =nld-21-d_n-31770-n;voorwerp;ding
+	IcLcs = 0.0018635292863312767
+	ezel[;schildersezel;ezel->;stander;standaard->;houder->;voorwerp;ding->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+Method = Lin
+	Score = 0.4958948816867187
+	Match =nld-21-d_n-24103-n;object
+Ic1 = 0.0
+Ic2 = 6.709250098623489
+IcLcs = 6.285283123401736
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+Method = JiangConrath
+	Score = 0.09206815400624349
+	Match =nld-21-d_n-24103-n;object
+Ic1 = 0.0
+Ic2 = 6.709250098623489
+IcLcs = 6.285283123401736
+	ezel[;grauwtje;grauw;ezel->;hoefdieren;hoefdier->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	werktuig[;gereedschap;werktuig->;voorwerp;ding->;object->;iets->]
+
+Method = Path
+	Score = 0.2
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broeder->;evennaaste;naaste;evenmens;medemens->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 1.791759469228055
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broeder->;evennaaste;naaste;evenmens;medemens->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.7777777777777778
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broeder->;evennaaste;naaste;evenmens;medemens->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 6.278930782850419
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+	IcLcs = 0.0018754047375070546
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broer;broeder->;maag;naverwant;verwant;familielid;bloedverwant->;lid->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.530580468066106
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+Ic1 = 10.937196160168417
+Ic2 = 15.085583400772094
+IcLcs = 6.278930782850419
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broer;broeder->;maag;naverwant;verwant;familielid;bloedverwant->;lid->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.09000661133966345
+	Match =nld-21-d_n-12603-n;mens;sterveling;ziel;homo sapiens;mensenkind
+Ic1 = 10.937196160168417
+Ic2 = 15.085583400772094
+IcLcs = 6.278930782850419
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	broeder[;broer;broeder->;maag;naverwant;verwant;familielid;bloedverwant->;lid->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.3333333333333333
+	Match =nld-21-d_n-40000-n;kantje;kant
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = LeacockChodorow
+	Score = 2.3025850929940455
+	Match =nld-21-d_n-40000-n;kantje;kant
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = WuPalmer
+	Score = 0.8333333333333334
+	Match =nld-21-d_n-40000-n;kantje;kant
+	kust[;kust;zeekust->;kantje;kant->;zijde;zij;zijkant->;vlak->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;zijde;zij;zijkant->;vlak->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Resnik
+	Score = 10.107303993456224
+	Match =nld-21-d_n-40000-n;kantje;kant
+	IcLcs = 4.07806035224377E-5
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = Lin
+	Score = 0.7428233522266963
+	Match =nld-21-d_n-40000-n;kantje;kant
+Ic1 = 13.258660256032114
+Ic2 = 13.954549891867643
+IcLcs = 10.107303993456224
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+Method = JiangConrath
+	Score = 0.14288567588172885
+	Match =nld-21-d_n-40000-n;kantje;kant
+Ic1 = 13.258660256032114
+Ic2 = 13.954549891867643
+IcLcs = 10.107303993456224
+	kust[;kust;zeekust->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+	oever[;walkant;waterkant;oever;wal->;kantje;kant->;deel;stukje;gedeelte;stuk;part;hap->;iets->]
+
+Method = Path
+	Score = 0.25
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+	oven[;oven->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = LeacockChodorow
+	Score = 2.0149030205422647
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+	oven[;oven->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = WuPalmer
+	Score = 0.8
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+	oven[;oven->;toestel;apparaat->;gereedschap;werktuig->;instrument->;voorwerp;ding->;object->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;gereedschap;werktuig->;instrument->;voorwerp;ding->;object->;iets->]
+Method = Resnik
+	Score = 6.699127813144899
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+	IcLcs = 0.04657762922886449
+	oven[;oven->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = Lin
+	Score = 0.46175240116189775
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+Ic1 = 13.368511969195644
+Ic2 = 15.647591883380002
+IcLcs = 3.066634912582401
+	oven[;oven->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = JiangConrath
+	Score = 0.06402930707937955
+	Match =nld-21-d_n-32526-n;toestel;apparaat
+Ic1 = 13.368511969195644
+Ic2 = 15.647591883380002
+IcLcs = 3.066634912582401
+	oven[;oven->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+	fornuis[;keukenfornuis;fornuis;kookfornuis->;kooktoestel->;toestel;apparaat->;hulpmiddel;instrument;middel;medium->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-11799-n;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht
+	inrichting[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-11799-n;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht
+	inrichting[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-11799-n;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht
+	inrichting[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+Method = Resnik
+	Score = 11.779907614748232
+	Match =nld-21-d_n-39876-n;inrichting
+	IcLcs = 0.04657762922886449
+	inrichting[;inrichting->;instelling->;organisatie;lichaam->;partij;groep->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;inrichting->;instelling->;organisatie;lichaam->;partij;groep->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-11799-n;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht
+Ic1 = 11.73604342816081
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	inrichting[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-11799-n;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht
+Ic1 = 11.73604342816081
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	inrichting[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+	gekkenhuis[;gekkenhuis;zothuis;inrichting;gesticht;dolhuis;krankzinnigengesticht->;hospitaal;gasthuis;ziekenhuis->;perceel;gebouw;huis;pand->;verblijf;onderkomen;verblijfplaats->;locatie;oord;plaats;plek->;iets->]
+
+Method = Path
+	Score = 0.5
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 2.70805020110221
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.9523809523809523
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 12.00307681881819
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+	IcLcs = 6.125336778389579E-6
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.886206753786787
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+Ic1 = 15.085583400772094
+Ic2 = 12.00307681881819
+IcLcs = 12.00307681881819
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.3244113105400513
+	Match =nld-21-d_n-23302-n;kloosterling;cenobiet;religieus;monnik
+Ic1 = 15.085583400772094
+Ic2 = 12.00307681881819
+IcLcs = 12.00307681881819
+	broeder[;ordebroeder;lekenbroeder;frater;broeder;convers;kloosterbroeder->;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	monnik[;kloosterling;cenobiet;religieus;monnik->;bewoner->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.3333333333333333
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 2.3025850929940455
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 0.8571428571428571
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 11.291098065907793
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+	IcLcs = 0.0019945221628327784
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 0.9165676956128987
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+Ic1 = 11.291098065907793
+Ic2 = 0.0
+IcLcs = 6.217350774706231
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 0.48647903907480655
+	Match =nld-21-d_n-31725-n;vogel;vogeltje
+Ic1 = 11.291098065907793
+Ic2 = 0.0
+IcLcs = 6.217350774706231
+	vogel[;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	kip[;huishen;kip;hen->;hoentje;hoen->;vogel;vogeltje->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 0.5
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+Method = LeacockChodorow
+	Score = 2.70805020110221
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+Method = WuPalmer
+	Score = 0.8571428571428571
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+Method = Resnik
+	Score = 9.291534638633456
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+	IcLcs = 0.04657762922886449
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+Method = Lin
+	Score = 0.8519945218317192
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+Ic1 = 9.291534638633456
+Ic2 = 12.519719778020324
+IcLcs = 3.066634912582401
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+Method = JiangConrath
+	Score = 0.3097715765428281
+	Match =nld-21-d_n-37334-n;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar
+Ic1 = 9.291534638633456
+Ic2 = 12.519719778020324
+IcLcs = 3.066634912582401
+	voedsel[;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+	fruit[;fruit;boomgewas;ooft->;etenswaar;spijs;eten;voeding;kost;voedsel;vreten;eetwaar->;substantie;stof;materie->;iets->]
+
+Method = Path
+	Score = 0.5
+	Match =nld-21-d_n-30425-n;reis
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = LeacockChodorow
+	Score = 2.70805020110221
+	Match =nld-21-d_n-30425-n;reis
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = WuPalmer
+	Score = 0.9333333333333333
+	Match =nld-21-d_n-30425-n;reis
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;opheffing->;stopzetting;beëindiging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;opheffing->;stopzetting;beëindiging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = Resnik
+	Score = 10.288693201619074
+	Match =nld-21-d_n-30425-n;reis
+	IcLcs = 3.401553582714654E-5
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = Lin
+	Score = 0.9670809710558341
+	Match =nld-21-d_n-30425-n;reis
+Ic1 = 10.98913876809933
+Ic2 = 10.288693201619074
+IcLcs = 10.288693201619074
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+Method = JiangConrath
+	Score = 1.4276626876589478
+	Match =nld-21-d_n-30425-n;reis
+Ic1 = 10.98913876809933
+Ic2 = 10.288693201619074
+IcLcs = 10.288693201619074
+	tocht[;tocht;gang->;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+	reis[;reis->;translocatie;transpositie;omzetting;verplaatsing->;beweging->;verandering;alteratie;wijziging->;gebeurde;gebeurtenis;geschiedenis;ontwikkeling->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = Resnik
+	Score = 6.709250098623489
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+	IcLcs = 0.04657762922886449
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+Ic1 = 10.816285491524395
+Ic2 = 6.709250098623489
+IcLcs = 3.066634912582401
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-15072-n;gereedschap;werktuig
+Ic1 = 10.816285491524395
+Ic2 = 6.709250098623489
+IcLcs = 3.066634912582401
+	gereedschap[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+	werktuig[;gereedschap;werktuig->;hulpmiddel;instrument;middel;medium->;iets->]
+
+Method = Path
+	Score = 0.5
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+Method = LeacockChodorow
+	Score = 2.70805020110221
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+Method = WuPalmer
+	Score = 0.9090909090909091
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+Method = Resnik
+	Score = 12.260301251475006
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+	IcLcs = 0.04657762922886449
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+Method = Lin
+	Score = 0.900936508896893
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+Ic1 = 12.260301251475006
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+Method = JiangConrath
+	Score = 0.3708936690604928
+	Match =nld-21-d_n-16609-n;edelsteen;steen
+Ic1 = 12.260301251475006
+Ic2 = 0.0
+IcLcs = 3.066634912582401
+	edelsteen[;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+	juweel[;juweel->;edelsteen;steen->;steen->;brok->;hoeveelheid;kwantiteit->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+Method = Resnik
+	Score = 12.446875864199521
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+	IcLcs = 0.04657762922886449
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+Ic1 = 12.446875864199521
+Ic2 = 15.050082134529454
+IcLcs = 3.066634912582401
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-40803-n;ochtend;morgen;voormiddag
+Ic1 = 12.446875864199521
+Ic2 = 15.050082134529454
+IcLcs = 3.066634912582401
+	ochtend[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+	morgen[;ochtend;morgen;voormiddag->;dagdeel->;periode->;maat->;eigenschap;hoedanigheid;propriëteit->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = Resnik
+	Score = 10.617544323799097
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+	IcLcs = 2.4482687476743563E-5
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+Ic1 = 10.617544323799097
+Ic2 = 0.0
+IcLcs = 0.0
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-26965-n;wagen;automobiel;auto
+Ic1 = 10.617544323799097
+Ic2 = 0.0
+IcLcs = 0.0
+	auto[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+	wagen[;wagen;automobiel;auto->;motorvoertuig;motorrijtuig->;vehikel;tuig;voertuig->;vervoermiddel;transportmiddel;vervoer->;voorwerp;ding->;object->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 10.937196160168417
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+	IcLcs = 0.0018754047375070546
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+Ic1 = 11.291774860028205
+Ic2 = 10.937196160168417
+IcLcs = 0.0
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-34331-n;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof
+Ic1 = 11.291774860028205
+Ic2 = 10.937196160168417
+IcLcs = 0.0
+	jongen[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	knul[;knaap;jong;joch;jongetje;knul;jongen;boy;gozer;goof->;kind;ding->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
+Method = Path
+	Score = 1.0
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = LeacockChodorow
+	Score = 3.4011973816621555
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = WuPalmer
+	Score = 1.0
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Resnik
+	Score = 15.767831922729439
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+	IcLcs = 1.4194418461187532E-7
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = Lin
+	Score = 1.286766995E8
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+Ic1 = 15.767831922729439
+Ic2 = 15.767831922729439
+IcLcs = 15.767831922729439
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+Method = JiangConrath
+	Score = 1.286766995E8
+	Match =nld-21-d_n-31360-n;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër
+Ic1 = 15.767831922729439
+Ic2 = 15.767831922729439
+IcLcs = 15.767831922729439
+	magiër[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+	tovenaar[;duivelskunstenaar;tovenares;tovenaar;heksenmeester;magiër->;mens;figuur;persoon;man->;mens;sterveling;ziel;homo sapiens;mensenkind->;zoogdier->;beest;gedierte;dier->;organisme->;creatuur;schepsel;wezen;zijn->;object->;iets->]
+
